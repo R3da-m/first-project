@@ -1,0 +1,249 @@
+body {
+  background-color: rgb(216, 14, 21)
+  min-height: auto;
+  min-height: fit-content;
+  min-width: 100vh;
+  font-family: sans-serif;
+  /* background-image: url();
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+  /* background-image: url(https://wp-assets.futurism.com/2013/10/sun-07.jpg); */
+  /* background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg); */
+  /* background-position: center; */
+  /* background-image: url(https://wp-assets.futurism.com/2013/10/sun-07.jpg); */
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: rgb(28, 17, 17);
+  margin: 50px;
+  text-shadow: 2px 2px 5px red;
+  font-size: 45px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #261f1f;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.horizontale-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  font-family: serif;
+  color: azure;
+}
+
+.verticale-section {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.flexbox-1 {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border: 10px double rgb(190, 12, 48);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(104, 104, 22);
+}
+
+.span-p-header {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+/* .a-color{
+  color: white;
+} */
+
+/*A-HEADER LINKS*/
+
+.a-header:link {
+  color: rgb(208, 218, 220);
+  background-color: transparent;
+  text-decoration: none;
+}
+.a-header:visited {
+  color: rgb(31, 172, 104);
+  background-color: transparent;
+  text-decoration: none;
+}
+.a-header:hover {
+  color: rgb(255, 251, 19);
+  background-color: transparent;
+  text-decoration: none;
+}
+.a-header:active {
+  color: rgb(249, 249, 16);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* A-LINK */
+
+a:link {
+  color: rgb(114, 50, 50);
+  /* background-color: transparent yellow; */
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(31, 172, 104);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(122, 247, 13);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  margin-bottom: 70px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* P-EINNSTALLINGEN */
+
+.p-header {
+  color: #e8e8e8;
+}
+
+.p-text p {
+  word-break: break-all;
+  margin: auto;
+  /* text-align: center; */
+
+  /* border: solid 1px gray; */
+  /* margin: 10px;*/
+  padding: 10px;
+  width: 800px;
+}
+
+.p-text {
+  margin: 50px;
+}
+
+section {
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  color: rgb(21, 11, 11);
+  font-size: 20px;
+}
+
+.vid-center {
+  display: flex;
+  justify-content: center;
+}
+
+.vid-center iframe {
+  border-radius: 10px;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+
+.img-center img {
+  border-radius: 10px;
+  -webkit-box-shadow: 9px 5px 15px 5px #000000;
+  box-shadow: 9px 5px 15px 5px #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ul {
+  margin: auto;
+  width: fit-content;
+
+}
+
+/* Nächste- & vorherige Seite */
+
+#taste-verticale {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+#taste-pos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#nächste-taste :link,
+a:visited {
+  background-color: #f44336;
+  color: rgba(59, 4, 74, 0.985);
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#vorherige-taste :link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#footer {
+  background-color: rgb(199, 178, 177);
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: #000000 solid 1px; */
+  /* align-items: center; */
+}
+#footer-icons {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  /* border: 1px solid red; */
+  /* align-items: center; */
+}
+
+#e-mail {
+  display: flex;
+  justify-content: center;
+}
+
+#copy {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.sozial {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
